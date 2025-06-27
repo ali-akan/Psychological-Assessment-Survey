@@ -1,0 +1,36 @@
+// src/surveys/RelationshipScales/questions.js
+
+const questions = [
+  { id: "rs1",  text: "Başkalarına kolaylıkla güvenemem. ", options: [1,2,3,4,5,6,7] },
+  { id: "rs2",  text: "Kendimi bağımsız hissetmem benim için çok önemli. ", options: [1,2,3,4,5,6,7] },
+  { id: "rs3",  text: "Başkalarıyla kolaylıkla duygusal yakınlık kurarım. ", options: [1,2,3,4,5,6,7] },
+  { id: "rs4",  text: "Bir başka kişiyle tam anlamıyla kaynaşıp bütünleşmek isterim.", options: [1,2,3,4,5,6,7] },
+  { id: "rs5",  text: "Başkalarıyla çok yakınlaşırsam incitileceğimden korkuyorum. ", options: [1,2,3,4,5,6,7] },
+  { id: "rs6",  text: "Başkalarıyla yakın duygusal ilişkilerim olmadığı sürece oldukça rahatım.", options: [1,2,3,4,5,6,7] },
+  { id: "rs7",  text: "İhtiyacım olduğunda yardıma koşacakları konusunda başkalarına her zaman güvenebileceğimden emin değilim.", options: [1,2,3,4,5,6,7] },
+  { id: "rs8",  text: "Başkalarıyla tam anlamıyla duygusal yakınlık kurmak istiyorum. ", options: [1,2,3,4,5,6,7] },
+  { id: "rs9",  text: "Yalnız kalmaktan korkarım. ", options: [1,2,3,4,5,6,7] },
+  { id: "rs10", text: "Başkalarına rahatlıkla güvenip bağlanabilirim. ", options: [1,2,3,4,5,6,7] },
+  { id: "rs11", text: "Çoğu zaman, romantik ilişkide olduğum insanların beni gerçekten sevmediği konusunda endişelenirim.", options: [1,2,3,4,5,6,7] },
+  { id: "rs12", text: "Başkalarına tamamıyla güvenmekte zorlanırım. ", options: [1,2,3,4,5,6,7] },
+  { id: "rs13", text: "Başkalarının bana çok yakınlaşması beni endişelendirir.", options: [1,2,3,4,5,6,7] },
+  { id: "rs14", text: "Duygusal yönden yakın ilişkilerim olsun isterim.", options: [1,2,3,4,5,6,7] },
+  { id: "rs15", text: "Başkalarının bana dayanıp bel bağlaması konusunda oldukça rahatımdır. ", options: [1,2,3,4,5,6,7] },
+  { id: "rs16", text: "Başkalarının bana, benim onlara verdiğim kadar değer vermediğinden kaygılanırım.", options: [1,2,3,4,5,6,7] },
+  { id: "rs17", text: "İhtiyacınız olduğunda hiç kimseyi yanınızda bulamazsınız.", options: [1,2,3,4,5,6,7] },
+  { id: "rs18", text: "Başkalarıyla tam olarak kaynaşıp bütünleşme arzum bazen onları ürkütüp benden uzaklaştırıyor.", options: [1,2,3,4,5,6,7] },
+  { id: "rs19", text: "Kendi kendime yettiğimi hissetmem benim için çok önemli. ", options: [1,2,3,4,5,6,7] },
+  { id: "rs20", text: "Birisi bana çok fazla yakınlaştığında rahatsızlık duyarım.", options: [1,2,3,4,5,6,7] },
+  { id: "rs21", text: "Romantik ilişkide olduğum insanların benimle kalmak istemeyeceklerinden korkarım.", options: [1,2,3,4,5,6,7] },
+  { id: "rs22", text: "Başkalarının bana bağlanmamalarını tercih ederim. ", options: [1,2,3,4,5,6,7] },
+  { id: "rs23", text: "Terk edilmekten korkarım.", options: [1,2,3,4,5,6,7] },
+  { id: "rs24", text: "Başkalarıyla yakın olmak beni rahatsız eder. ", options: [1,2,3,4,5,6,7] },
+  { id: "rs25", text: "Başkalarının bana, benim istediğim kadar yakınlaşmakta gönülsüz olduklarını düşünüyorum.", options: [1,2,3,4,5,6,7] },
+  { id: "rs26", text: "Başkalarına bağlanmamayı tercih ederim. ", options: [1,2,3,4,5,6,7] },
+  { id: "rs27", text: "İhtiyacım olduğunda insanları yanımda bulacağımı biliyorum.", options: [1,2,3,4,5,6,7] },
+  { id: "rs28", text: "Başkaları beni kabul etmeyecek diye korkarım. ", options: [1,2,3,4,5,6,7] },
+  { id: "rs29", text: "Romantik ilişkide olduğum insanlar, genellikle onlarla, benim kendimi rahat hissettiğimden daha yakın olmamı isterler.", options: [1,2,3,4,5,6,7] },
+  { id: "rs30", text: "Başkalarıyla yakınlaşmayı nispeten kolay bulurum.", options: [1,2,3,4,5,6,7] },
+];
+
+export default questions;

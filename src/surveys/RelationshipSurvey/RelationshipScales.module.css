@@ -1,0 +1,139 @@
+.container {
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    padding: 20px;
+    text-align: center;
+     border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+}
+
+.participantInfo{
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+
+/* .participantInfo label {
+    margin-right: 15px;
+    border: 2px solid red;
+} */
+
+.questionBlock {
+    margin-bottom: 20px;.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #1e3a8a;
+}
+
+.buttonGroup {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+}
+
+.options label {
+    margin-right: 10px;
+}
+
+.buttonGroup {
+    margin-top: 20px;
+}
+
+button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+.question {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.questionText {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.options {
+  display: flex;
+  justify-content:space-around;
+  gap: 15px;
+}
+
+.description {
+  background-color: #eef2f7;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight:500;
+}
+.sliderWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.slider {
+  width: 100%;
+  max-width: 600px;
+  height: 8px;
+  background: linear-gradient(to right, #cbd5e1, #3b82f6);
+  border-radius: 10px;
+  outline: none;
+  appearance: none;
+  transition: background 0.3s ease;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  background: #3b82f6;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.sliderLabels {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+.currentValue {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  color: #1e40af;
+  font-weight: 600;
+}

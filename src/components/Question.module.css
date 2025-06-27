@@ -1,0 +1,17 @@
+.question {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.questionText {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.options {
+  display: flex;
+  justify-content:space-around;
+  gap: 15px;
+}

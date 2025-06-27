@@ -1,0 +1,84 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfdfd;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 16px;
+}
+
+.description {
+  margin-bottom: 12px;
+  color: #333;
+  font-size: 15px;
+}
+
+.points {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #444;
+}
+
+.questionTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.questionTable th,
+.questionTable td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.questionTable th {
+  background-color: #f0f4ff;
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+.questionTable td:first-child {
+  text-align: left;
+  font-weight: 500;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+  accent-color: #1e3a8a;
+}
+
+.buttonGroup {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

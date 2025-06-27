@@ -1,0 +1,92 @@
+.box {
+  max-width: 680px;
+  margin: 5% auto;
+  padding: 32px;
+  background-color: #fdfdfd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e1e1e;
+  text-align: left;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px auto;
+  max-width: 140px;
+  height: auto;
+  opacity: 0.85;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 14px;
+  color: #333;
+}
+
+ul {
+  padding-left: 20px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.list li {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.inputGroup {
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputGroup label {
+  font-weight: 500;
+  color: #1e3a8a;
+}
+
+input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #1e3a8a;
+  box-shadow: 0 0 4px rgba(30, 58, 138, 0.3);
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
