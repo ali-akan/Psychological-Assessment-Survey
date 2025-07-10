@@ -47,13 +47,13 @@ function Home() {
       </p>
 
       <div className={classes.inputGroup}>
-        <label htmlFor="name">Lütfen isminizi giriniz:</label>
+        <label htmlFor="name">Lütfen katılımcı numaranızı giriniz:</label>
         <input
-          type="text"
+          type="number"
           id="name"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          placeholder="Adınızı girin"
+          placeholder="Katılımcı Numaranız"
         />
       </div>
 
